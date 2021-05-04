@@ -1,0 +1,55 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #000;
+	box-sizing: border-box;
+}
+
+button {
+	padding: 5px 15px;
+	margin: 5px 0px;
+	border-radius: 10px;
+	border: 0px solid transparent;
+	/* background-color: white; */
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+button.tambah {
+	font-weight: bold;
+	color: blue;
+}
+button.ubah {
+	font-weight: bold;
+	color: orange;
+}
+button.ubah_simpan {
+	background-color: orange;
+	color: white
+}
+button.hapus {
+	font-weight: bold;
+	color: red;
+}
+
+button:hover {
+	opacity: .6;
+}
+
+table {
+	border-spacing: 0px;
+}
+td {
+	margin: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}

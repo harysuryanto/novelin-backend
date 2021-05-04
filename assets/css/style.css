@@ -1,0 +1,83 @@
+.phone-screen {
+	width: 500px;
+	height: 700px;
+	border: 1px solid #000;
+	margin: 20px auto;
+	box-sizing: border-box;
+}
+
+.kiriman {
+	margin: 20px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	background-color: beige;
+}
+	.kiriman .foto-profil {
+		padding-left: 0px;
+	}
+		.foto-profil img {
+			width: 100%;
+			border-radius: 50%;
+			margin: auto 0px;
+			box-sizing: border-box;
+			background-color: deepskyblue;
+		}
+
+	.kiriman .nama-pengguna {
+		padding: 10px 30px;
+		border-radius: 120px;
+		background-color: #78BCC4;
+		box-sizing: border-box;
+	}
+
+		.nama-pengguna .nama {
+			font-size: 20px;
+		}
+		.nama-pengguna .perasaan {
+			font-size: 12px;
+			/* font-weight: bold; */
+		}
+	
+	.kiriman .isi-kiriman {
+		padding: 50px 10px;
+		margin-top: 20px;
+		box-sizing: border-box;
+		border-radius: 50px;
+		background-color: #B6C49D;
+	}
+		.isi-kiriman p {
+			font-size: 30px;
+			text-align: center;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			color: #EDEDE5;
+		}
+	
+	.kiriman .aksi {
+		margin-top: 20px;
+	}
+		.kiriman .aksi .suka {
+			width: 60px;
+			height: 60px;
+			margin: 0px auto;
+			box-sizing: border-box;
+			border-radius: 50%;
+			background-color: red;
+		}
+		.kiriman .aksi .komentar {
+			width: 60px;
+			height: 60px;
+			margin: 0px auto;
+			box-sizing: border-box;
+			border-radius: 50%;
+			background-color: yellow;
+		}
+		.kiriman .aksi .opsi {
+			width: 60px;
+			height: 60px;
+			margin: 0px auto;
+			box-sizing: border-box;
+			border-radius: 50%;
+			background-color: coral;
+		}
